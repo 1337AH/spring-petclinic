@@ -10,6 +10,6 @@ before_install:
   - chmod +x docker-compose
   - sudo mv docker-compose /usr/local/bin
 
-after_install:
+install:
   - docker build -t arlindhoxha/spring-petclinic .
   - docker push arlindhoxha/spring-petclinic:v1.0
