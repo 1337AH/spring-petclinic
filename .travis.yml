@@ -12,3 +12,4 @@ before_install:
 
 after_install:
   - docker build -t arlindhoxha/spring-petclinic .
+  - docker push arlindhoxha/spring-petclinic:v1.0
