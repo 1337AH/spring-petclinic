@@ -13,4 +13,5 @@ before_install:
 
 install:
   - docker build -t arlindhoxha/spring-petclinic:latest .
+  - docker login --username arlindhoxha --password bf8bb710-b9a7-437b-b968-353290be9a71
   - docker push arlindhoxha/spring-petclinic:latest
