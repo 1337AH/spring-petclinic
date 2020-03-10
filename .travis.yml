@@ -12,5 +12,5 @@ before_install:
   - sudo mv docker-compose /usr/local/bin
 
 install:
-  - docker build -t arlindhoxha/spring-petclinic .
-  - docker push arlindhoxha/spring-petclinic:v1.0
+  - docker build -t arlindhoxha/spring-petclinic:latest .
+  - docker push arlindhoxha/spring-petclinic:latest
