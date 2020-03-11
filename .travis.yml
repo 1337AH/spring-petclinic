@@ -6,7 +6,7 @@ env:
 
 jobs:
   include:
-    - stage: build
+    - stage: dev
       script: bash scripts/build.sh
     - stage: prod
       script: bash scripts/artifacting.sh
