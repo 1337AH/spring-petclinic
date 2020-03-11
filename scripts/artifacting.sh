@@ -7,7 +7,7 @@ export AWS_ACCESS_KEY_ID=${AWS_ACCESS_KEY_ID}
 export AWS_DEFAULT_REGION=${AWS_DEFAULT_REGION}
 export AWS_SECRET_ACCESS_KEY=${AWS_ACCESS_KEY_ID}
 
-aws s3 cp target/*.jar s3://elasticbeanstalk-petclinic/ --grants read=uri=http://acs.amazonaws.com/groups/global/AllUsers full=emailaddress=xrobotx98@gmail.com
+aws s3 cp target/*.jar s3://elasticbeanstalk-petclinic/ --grants read=uri=https://acs.amazonaws.com/groups/global/AllUsers full=emailaddress=xrobotx98@gmail.com
 # [OPTIONAL]
 # ----------------------------------------------------
 # aws configure set aws_access_key_id AWS_ACCESS_KEY_ID
