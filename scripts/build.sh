@@ -8,4 +8,4 @@ sudo mv docker-compose /usr/local/bin
 
 docker build -t ${DOCKER_HUB_USERNAME}/spring-petclinic:latest .
 docker login --username ${DOCKER_HUB_USERNAME} --password-stdin ${DOCKER_HUB_TOKEN_PASSWORD}
-docker push arlindhoxha/spring-petclinic:latests
+docker push arlindhoxha/spring-petclinic:latest
