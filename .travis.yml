@@ -16,4 +16,4 @@ jobs:
     - stage: build
       script: bash scripts/build.sh
     - stage: prod
-      script: bash scripts/credentials.sh
+      script: bash scripts/artifacting.sh
