@@ -1,5 +1,9 @@
 #!/bin/bash
 
+
+echo "$AWS_ACCESS_KEY_ID"
+echo "$AWS_SECRET_ACCESS_KEY"
+
 sudo mvn clean package -q
 sudo rm /usr/local/bin/docker-compose
 sudo curl -L https://github.com/docker/compose/releases/download/${DOCKER_COMPOSE_VERSION}/docker-compose-`uname -s`-`uname -m` > docker-compose
